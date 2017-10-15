@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  font-family: 'Lato', sans-serif;
+  background-image: url(https://media.giphy.com/media/26u6dryuZH98z5KuY/giphy.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  position: relative;
+  top: 100px;
+}
+form .formItems {
+  font-size: 20pt;
+}
+
+form.shiftUp{
+  padding-bottom: 40px;
+}
+
+form #zip {
+  border: solid black 1px;
+  text-align: center;
+}
+
+section #temp {
+  font-size: 50pt;
+}
+section #weather {
+  font-size: 30pt;
+}
+section .tempRange{
+  display: inline-block;
+}
+
+#display {
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+#display.shiftDown {
+  top: 100px;
+  left: 0px;
+  transition: left linear .5s;
+}
+
+
+
+
+
+
+

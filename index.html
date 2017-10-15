@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Weather app!!!!!</title>
+  <link rel='stylesheet' type='text/css' href='./styles/reset.css'>
+  <link rel='stylesheet' type='text/css' href='./styles/style.css'>
+</head>
+<body>
+  <!--
+    HTML NEEDS
+    - input box
+    - submit button
+    - an element with a unique class, id, or data-attribute
+      for each of the weather metrics you want to put on the page.
+   -->
+  <form>
+    <input class="formItems" id="zip" type="text" name="zip" placeholder="Enter Zip Code">
+    <input class="formItems" id="submit" type="submit" value="Submit">
+  </form>
+
+  <section id='display'>
+    <div id="city"></div>
+    <div id="temp"></div>
+    <div id="weather"></div>
+
+    <div class='tempRange' id="minTemp">
+      <div id="min"></div>
+      <div id="minVal"></div>
+    </div>
+
+    <div class='tempRange' id="maxTemp">
+      <div id="max"></div>
+      <div id="maxVal"></div>
+    </div>
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src='./src/main.js'></script>
+</body>
+</html>
