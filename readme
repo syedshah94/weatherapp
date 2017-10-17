@@ -1,0 +1,5 @@
+Future plans:
+Have the bg turn blue if under 40, and red if above 90.
+Add the latitude and longitude, humidity, precipitation, and wind speed
+Add FontAwesome icons (maybe add class "fa-spin" to give it a livelier feel)
+Add sunrise and sunset times (look into the javascript date object...)
